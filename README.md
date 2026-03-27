@@ -214,41 +214,28 @@ Output-
 | Fitness        |
 
 
-SQL Clauses (Simple Definitions)
+15. SQL Clauses (Simple Definitions)
 
-HAVING
-
-Filters grouped data (used with GROUP BY)
+HAVING - Filters grouped data (used with GROUP BY)
 
 HAVING COUNT(*) > 1;
 
-ORDER BY
-
-Sorts data (ASC / DESC)
+16. ORDER BY - Sorts data (ASC / DESC)
 
 ORDER BY price DESC;
 
-LIMIT
-
-Limits number of rows
-
+17. LIMIT - Limits number of rows
 LIMIT 3;
 
-AS (Alias)
-
-Renames columns temporarily
+18. AS (Alias) Renames columns temporarily
 
 name AS item_name;
 
-DISTINCT
-
-Removes duplicate values
+19. DISTINCT Removes duplicate values
 
 SELECT DISTINCT category;
 
-Final Note
-
-This guide covers:
+20. Final Note This guide covers:
 
 CRUD operations
 Data types
