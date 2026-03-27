@@ -10,9 +10,8 @@ A beginner-friendly guide covering SQL basics with examples, outputs, and explan
 
 ---
 
-## 📌 1. Create Database & Table
+##  1. Create Database & Table
 
-```sql
 CREATE DATABASE students;
 
 CREATE TABLE students (
@@ -21,3 +20,10 @@ CREATE TABLE students (
   grade CHAR(1),
   student_id INT
 );
+
+ 2. Insert Data
+INSERT INTO students(student_id, name, age, grade)
+VALUES 
+(11, 'ayush', 23, 'A'),
+(12, 'akash', 22, 'B'),
+(13, 'anjali', 24, 'C');
