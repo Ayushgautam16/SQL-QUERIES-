@@ -244,6 +244,16 @@ SQL clauses
 Real-world examples
 
 
+21. aggregate functions 
+select * from products where price between 400 and 1000;
+
+select sum (price) from products where category = 'Electronics';
+select count (price) from products where category = 'Electronics';
+select avg (price) from products where category = 'Electronics';
+select max(price) from products where category = 'Electronics';
+select min (price) from products where category = 'Electronics';
+
+
 
 
 
