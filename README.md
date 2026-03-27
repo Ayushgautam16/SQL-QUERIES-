@@ -11,7 +11,7 @@ A beginner-friendly guide covering SQL basics with examples, outputs, and explan
 ---
 
 ##  1. Create Database & Table
-
+```sql
 CREATE DATABASE students;
 
 CREATE TABLE students (
@@ -20,7 +20,6 @@ CREATE TABLE students (
   grade CHAR(1),
   student_id INT
 );
-
  2. Insert Data
 INSERT INTO students(student_id, name, age, grade)
 VALUES 
